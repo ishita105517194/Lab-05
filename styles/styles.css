@@ -8,12 +8,15 @@ header {
     font-size: 2em; 
     font-weight: bold; 
 }
-h1 {
-    font-family: calibri, sans-serif;
-    color: #2F4F4F;
+#headings {
+    color: blue; 
+    font-size: 1.5em; 
+    font-weight: bold; 
 }
-h2 {
-    color: rgb( 0, 128, 128);
+p, li, ul, ol {
+    font-size: 1.2em; 
+    font-weight: normal; 
+    color: black; 
 }
 aside, footer { font-style: italic; }
 h1, h2, h3 {
@@ -44,5 +47,12 @@ nav a:hover{
     background-color: lightblue;
     border-color: darkblue;
 }
-
+#main{
+    border : 1px solid black;
+    padding: 2%;
+    margin: 2%;
+    border-radius: 8px;
+    font-size: small;
+    min-width: 30%;
+}
 
